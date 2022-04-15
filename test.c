@@ -1,4 +1,5 @@
 #include<stdio.h>
+int fun(int b,int b);
 int main()
 {
 	int a = 10;
@@ -16,7 +17,15 @@ int main()
 	{
 		getchar();
 	}
+	int b ;
+	printf("Please Input b:");
+	scanf("%d",&b); 
+	fun(a,b);
 
 	printf("%d  ___   %c\n",a,ch);
 	return 0;
+}
+int fun(int a,int b)
+{
+	return a + b;
 }
