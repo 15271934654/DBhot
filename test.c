@@ -27,5 +27,6 @@ int main()
 }
 int fun(int a,int b)
 {
-	return a + b;
+	int c = 100;
+	return a + b + c;
 }
