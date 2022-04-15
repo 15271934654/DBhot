@@ -12,6 +12,10 @@ int main()
 		p++;
 
 	}
+	while(1)
+	{
+		getchar();
+	}
 
 	printf("%d  ___   %c\n",a,ch);
 	return 0;
